@@ -4,8 +4,6 @@
 
     <div class="content" :class="navigatorStore.active ? 'screen-active' : ''">
       <RouterView />
-
-      <div id="modal-container"></div>
     </div>
   </div>
 </template>
